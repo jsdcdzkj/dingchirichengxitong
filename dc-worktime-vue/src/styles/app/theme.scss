@@ -1,0 +1,39 @@
+:root {
+	--el-slide-size: 32px;
+	--el-menu-p-size: 64px;
+	--el-menu-c-size: 192px;
+	--body-padding-size: 24px;
+	--el-menu-c-active: #e8f3ff;
+	--el-menu-c-hover: #e8f3ff;
+	--el-menu-c-raidus: 6px;
+	--el-logo-color: #000;
+	--el-body-bg: #f8f8f8;
+	--el-body-shandow: rgba(230, 237, 241, 0.5);
+	--el-page-color: #fff;
+	--el-table-col: #f8f8f8;
+	--el-border-color: #f1f1f1;
+	--el-dialog-bg: linear-gradient(0deg, #f1f6ff 0%, #ffffff 100%);
+	--el-header-project-tag: #fff;
+	--el-table-row-scuccess: #fff;
+	--el-bg-color-overlay: #fff;
+	--el-card-header: #eee;
+}
+
+html.dark:root {
+	--el-slide-size: 32px;
+	--el-menu-p-size: 64px;
+	--el-menu-c-size: 192px;
+	--el-menu-c-active: #3f4346;
+	--el-menu-c-hover: #2a2b2c;
+	--el-menu-c-raidus: 6px;
+	--el-logo-color: #fff;
+	--el-body-bg: #222;
+	--el-body-shandow: rgba(11, 11, 11, 0.5);
+	--el-page-color: #0a0a0a;
+	--el-table-col: #111;
+	--el-dialog-bg: linear-gradient(0deg, #111 0%, #333 100%);
+	--el-header-project-tag: #000;
+	--el-table-row-scuccess: #000;
+	--el-bg-color-overlay: #000;
+	--el-card-header: #676677;
+}

@@ -1,0 +1,49 @@
+formula:
+  difficulty:
+    easy: 0.5  #轻松
+    simple: 1 # 简单
+    normal: 1.5 # 一般
+    hard: 2 # 困难
+    challenge: 3 # 挑战
+
+# 绩效前端难度系数
+  difficulty_f:
+    easy: 0.2  #轻松
+    simple: 0.2 # 简单
+    normal: 0.8 # 一般
+    hard: 0.5 # 困难
+    challenge: 3 # 挑战
+
+# 绩效后端难度系数
+  difficulty_h:
+    easy: 0.3  #轻松
+    simple: 0.3 # 简单
+    normal: 0.3 # 一般
+    hard: 1 # 困难
+    challenge: 3 # 挑战
+
+  weights:
+    workload: 0.3 #工作量
+    efficiency: 0.2 #效率
+    difficulty: 0.3 #难度
+    bugRate: 0.2 #bug率
+
+  severity:
+    minor : 1 #轻微
+    medium: 1.5 #一般
+    major : 2 #严重
+
+  efficiency: 1.5 #效率排除异常指数
+  bugFreeRate: 10 #bug率倒数，超过这个代表满分
+
+# 开发个人能力权重（前端、后端）
+  devWeights:
+    difficulty: 0.4 #难度
+    efficiency: 0.2 #效率
+    bugRate: 0.4 #bug率
+
+
+  # 产品经理、项目经理
+  manageWeights:
+    difficulty: 0.5 #难度
+    efficiency: 0.5 #效率

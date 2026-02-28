@@ -1,0 +1,1 @@
+export class Row{spans=[];row;rowWidth;rowHeight;constructor(e,r,n){this.row=e,this.rowWidth=r,this.rowHeight=n}pushSpan(e){this.spans.push(e)}render(e,r=0,n=0,s=0){e.save();const o=(this.row+1)*this.rowHeight+n-s-1;e.beginPath(),e.lineWidth=1,e.moveTo(r,o+.5),e.lineTo(this.rowWidth+r,o+.5),e.strokeStyle="#eee",e.lineCap="butt",e.stroke(),e.restore()}}

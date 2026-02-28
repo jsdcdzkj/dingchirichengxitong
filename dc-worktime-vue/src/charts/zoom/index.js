@@ -1,0 +1,1 @@
+export default class n{optons={maxZoom:4,zoom:1,zoomStep:.1,minZoom:.5};constructor(o){this.optons=Object.assign({},this.optons,{...o})}computedZoom(o,m){const e=(o.e.deltaY||0)>0?-this.optons.zoomStep:this.optons.zoomStep,t=Math.min(5,Math.max(this.optons.minZoom,this.optons.zoom+e));m(this.optons.zoom,t,o),this.optons.zoom=t}get zoom(){return this.optons.zoom}}

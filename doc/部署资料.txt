@@ -1,0 +1,4 @@
+windows2016 
+ip: 172.168.95.59
+登录名: administrator
+密码: JSdc@0516
